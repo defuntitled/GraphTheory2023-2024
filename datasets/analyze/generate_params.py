@@ -5,7 +5,7 @@ import pathlib
 nmus = []
 
 for k in range(50):
-    nmus.append((random.randint(1,20), random.randint(1,2000), random.randint(1,2000)))
+    nmus.append((random.randint(2,20), random.randint(1,2000), random.randint(1,2000)))
 
 for k in range(50):
     nmus.append((random.randint(20,40), random.randint(2000,4000), random.randint(2000,4000)))
